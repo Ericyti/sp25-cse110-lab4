@@ -1,0 +1,2 @@
+1. The bug was that the values were being treated as strings by the program so when you inputted the value 1 and 2 it concatenated and outputted 12 instead of 3.
+2. To fix the bug I would just make it so that result = Number(num1) + Number(num2) so that the program treats the inputs as numbers instead of strings.
